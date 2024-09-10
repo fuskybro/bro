@@ -215,12 +215,12 @@ def send_welcome(message):
     markup = ReplyKeyboardMarkup(row_width=2, resize_keyboard=True, one_time_keyboard=True)
 
     # Create buttons
-    btn1 = KeyboardButton("Instant Plan 🧡")
-    btn2 = KeyboardButton("Instant++ Plan 💥")
-    btn3 = KeyboardButton("Canary Download✔️")
-    btn4 = KeyboardButton("My Account🏦")
-    btn5 = KeyboardButton("Help❓")
-    btn6 = KeyboardButton("Contact admin✔️")
+    btn1 = KeyboardButton("My Account🏦")
+    btn2 = KeyboardButton("Help❓")
+    btn3 = KeyboardButton("Instant Plan 🧡")
+    btn4 = KeyboardButton("Canary Download✔️")
+    btn5 = KeyboardButton("Contact admin✔️")
+    btn6 = KeyboardButton("Instant++ Plan 💥")
 
     # Add buttons to the markup
     markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
